@@ -79,3 +79,12 @@ button:focus {
     background-color: #e43e3e;
     transform: scale(1.05);
 }
+
+.song {
+    display: none;
+}
+
+.perfect {
+    display: none;
+}
+

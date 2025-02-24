@@ -2,14 +2,19 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
+const song = document.querySelector(".song");
+const perfect = document.querySelector(".perfect");
 
 // Change text and gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
     question.innerHTML = "I can't wait to have you. I love you too Duha.";
     gif.src = "https://www.icegif.com/wp-content/uploads/2023/06/icegif-226.gif";
-
+    // show song
+    song.style.display = "block";
+    perfect.style.display = "block";
     // Hide the No button
     noBtn.style.display = "none";
+    yesBtn.style.display = "none"
 });
 
 // Make the No button move randomly on hover
