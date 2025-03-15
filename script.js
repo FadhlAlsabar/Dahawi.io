@@ -7,8 +7,8 @@ const perfect = document.querySelector(".perfect");
 
 // Change text and gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "I can't wait to have you. I love you too Duha.";
-    gif.src = "https://www.icegif.com/wp-content/uploads/2023/06/icegif-226.gif";
+    question.innerHTML = "Don't be sad we will be together of ever. I love you too Duha.";
+    gif.src = "https://i.pinimg.com/originals/9c/72/2f/9c722f01d807f86524c0e4980d3951cd.gif";
     // show song
     song.style.display = "block";
     perfect.style.display = "block";
